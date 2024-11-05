@@ -1,0 +1,59 @@
+/* DataTable.css */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0; /* Light grey background for the container */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff; /* Blue text for the title */
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"]:focus,
+  input[type="date"]:focus,
+  select:focus {
+    outline: none;
+    border-color: #0056b3; /* Darker blue on focus */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ccc; /* Light gray border for rows */
+  }
+  
+  th {
+    background-color: #eb94d8f5; 
+    color: white; 
+  }
+  
+  tbody tr:hover {
+    background-color: #5675db; /* Light blue background on row hover */
+  }
+  
+  .no-data {
+    text-align: center;
+    color: #999; /* Grey text for no data */
+  }
+  
